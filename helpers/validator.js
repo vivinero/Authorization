@@ -16,7 +16,7 @@ lastName: joi.string()
             .min(5)
             .max(11),
     password: joi.string()
-            .pattern(new RegExp ('^[a-zA-Z0-9]{8,}$'))
+            .pattern(new RegExp ('^[a-zA-Z0-9]{8}$'))
             
 })
 
